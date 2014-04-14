@@ -1,0 +1,36 @@
+.container {
+    width: 90%;
+}
+
+.section-label {
+    display: inline-block;
+    margin-right: 25px;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.symbol {
+    font-size: 2em;
+}
+
+.rule-keyword {
+    font-size: 2em;
+}
+
+.direction {
+    font-size: 2em;
+}
+
+.symbol-well {
+    display: inline-block;
+    width:100%;
+}
+
+.form-control {
+    font-size: 2em;
+    height: auto;
+}
+
+.btn {
+    font-size: 2em;
+}
