@@ -1,0 +1,54 @@
+.container {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px; }
+  .container.content {
+    background-color: #fff; }
+  .container.card {
+    display: block;
+    padding: 0; }
+    .container.card .card-header h2 {
+      width: 100%;
+      background-color: #2196F3;
+      color: rgba(255, 255, 255, 0.84);
+      padding: 15px;
+      margin: 0;
+      margin-bottom: 20px; }
+    .container.card .card-body {
+      padding: 15px; }
+
+.page-header {
+  margin-top: 0;
+  margin-bottom: 20px;
+  padding: 115px 16px 0;
+  height: 256px;
+  background-color: #ff5722;
+  color: rgba(255, 255, 255, 0.84); }
+  .page-header small {
+    color: rgba(255, 255, 255, 0.74); }
+
+.tape-symbol {
+  width: 60px;
+  height: 60px;
+  padding: 15px;
+  background-color: #5264ae;
+  display: inline-block;
+  margin: 10px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.84);
+  text-align: center;
+  font-size: 26px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.26);
+  border-radius: 5px; }
+  .tape-symbol.tape-symbol-plus {
+    background-color: #eee;
+    box-shadow: none;
+    border: 2px dashed #aaa;
+    color: #aaa; }
+  .tape-symbol.tape-symbol-blank {
+    background-color: #eee;
+    color: #222; }
+
+.tile-area {
+  columns: 6em; }
